@@ -1,0 +1,10 @@
+.Foot {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,0 +1,22 @@
+
+.custom1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.sv {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 400px;
+    transform: rotateY(180deg);
+}
+
+.shapefill {
+    fill: #411530;
+}

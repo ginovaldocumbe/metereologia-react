@@ -1,0 +1,22 @@
+.Pesquisa {
+  background-color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+input {
+  height: 33px;
+  border-radius: 10px;
+  background: transparent;
+  border: none;
+}
+button {
+  height: 33px;
+  border-radius: 5px;
+  border: none;
+  background-color: #411530C9;
+  color: white;
+ 
+}
+

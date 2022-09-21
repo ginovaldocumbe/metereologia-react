@@ -1,9 +1,10 @@
 .Pesquisa {
   background-color: white;
   width: fit-content;
+  margin-top: 50px;
   padding: 5px;
   border-radius: 5px;
-
+  margin-bottom: 50px;
 }
 input {
   height: 33px;
@@ -15,8 +16,17 @@ button {
   height: 33px;
   border-radius: 5px;
   border: none;
-  background-color: #411530C9;
+  background-color: #411530c9;
   color: white;
- 
 }
 
+@media only screen and (min-width: 768px) {
+  input{
+    height: 42px;
+    width: 300px;
+  }
+  button{
+    height: 42px;
+    width: 100px;
+  }
+}

@@ -1,15 +1,20 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './cards.module.css';
+import React from "react";
+import styles from "./cards.module.css";
 
-const Cards = () => (
-  <div className={styles.Cards}>
-    Cards Component
-  </div>
-);
+function Cards() {
 
-Cards.propTypes = {};
 
-Cards.defaultProps = {};
+  return (
+    <div className={styles.Cards}>
+      <h3 className={styles.prov}>Maputo</h3>
+      {/* <img src=""/> */}
+      <p>Imagem</p>
+      <div className={styles.baixo}>
+        <span>Min: 10 °C</span>
+        <span>Max: 10 °C</span>
+      </div>
+    </div>
+  );
+}
 
 export default Cards;

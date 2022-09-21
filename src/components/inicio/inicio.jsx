@@ -4,7 +4,7 @@ import Pesquisa from "../pesquisa/pesquisa";
 import Foot from "../foot/foot";
 import Cards from "../cards/cards";
 const Inicio = () => (
-  <div className="">
+  <div className={styles.Inicio}>
     <div className={styles.custom1}>
       <svg
         className={styles.sv}
